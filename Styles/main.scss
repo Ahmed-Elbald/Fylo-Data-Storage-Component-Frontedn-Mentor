@@ -121,8 +121,13 @@ button {
       padding: 3em;
     }
 
-    p {
+    >h1 {
       color: $paleBlue;
+      font-size: 1rem;
+
+      strong {
+        color: white;
+      }
     }
 
     .bar {

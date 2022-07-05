@@ -123,8 +123,12 @@ button {
     padding: 3em;
   }
 }
-.card .stat p {
+.card .stat > h1 {
   color: #dddbff;
+  font-size: 1rem;
+}
+.card .stat > h1 strong {
+  color: white;
 }
 .card .stat .bar {
   position: relative;
